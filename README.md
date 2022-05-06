@@ -5,13 +5,18 @@
 ### 1.
 Set environment variable for mysql in mysql_enviroonment.env
 dont change variable name, just change values of variables
+```sh
+docker-compose run python django-admin.py startproject app .
+```
 
 ### 2.
 If you want to change public port of nginx, just change like this:
 
 in docker-compose.yml
+```sh
 ports:
         - "{port number you want to use}:8000"
+```
 
 ### 3.
 ```sh
