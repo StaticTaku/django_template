@@ -15,8 +15,10 @@ MYSQL_PASSWORD=
 If you want to change public port of nginx, just change like this:
 
 in docker-compose.yml
+```sh
 ports:
         - "{port number you want to use}:8000"
+```
 
 ### 3.
 ```sh
