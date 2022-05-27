@@ -22,7 +22,8 @@ ports:
 
 ### 3.
 ```sh
-docker-compose run python django-admin.py startproject app .
+docker-compose run python django-admin.py startproject app . && \
+sudo chowm $USER:$USER src/ static/
 ```
 
 ### 4.
